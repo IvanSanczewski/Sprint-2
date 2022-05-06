@@ -1,2 +1,10 @@
 @import "../sass/custom";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      font-weight: 600;
+    }
+  }
+}

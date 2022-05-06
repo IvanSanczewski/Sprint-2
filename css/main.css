@@ -11956,4 +11956,8 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 600;
+}
 /*# sourceMappingURL=main.css.map */
