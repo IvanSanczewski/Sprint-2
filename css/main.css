@@ -11957,7 +11957,22 @@ fieldset:disabled .btn {
   }
 }
 
-.navbar-light .navbar-nav .nav-link {
+.font-weight-600 {
   font-weight: 600;
+}
+
+.parent {
+  position: relative;
+}
+
+.shape-right {
+  position: absolute;
+  background-color: #5265e1;
+  width: 80%;
+  height: 80%;
+  right: -30px;
+  bottom: -10px;
+  border-radius: 100px 0 0 100px;
+  z-index: -1;
 }
 /*# sourceMappingURL=main.css.map */

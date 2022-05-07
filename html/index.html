@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white my-5">
         <div class="container">
           <a class="navbar-brand" href="#"><img src="../images/logo-bookmark.svg" alt="" /> </a>
           <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,14 +17,36 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link text-uppercase me-5" aria-current="page" href="#">Features</a>
-              <a class="nav-link text-uppercase me-5" href="#">Pricing</a>
-              <a class="nav-link text-uppercase me-5" href="#">Contact</a>
-              <a class="btn btn-secondary text-uppercase text-white px-5">Login</a>
+              <a class="nav-link text-uppercase me-5 font-weight-600" aria-current="page" href="#">Features</a>
+              <a class="nav-link text-uppercase me-5 font-weight-600" href="#">Pricing</a>
+              <a class="nav-link text-uppercase me-5 font-weight-600" href="#">Contact</a>
+              <a class="btn btn-secondary text-uppercase text-white px-5 font-weight-600 shadow">Login</a>
             </div>
           </div>
         </div>
       </nav>
+
+      <section class="container" id="hero">
+        <div class="row align-items-center my-5">
+          <div class="col-md-6">
+            <div>
+              <h1 class="text-center text-md-start text-dark my-4 fw-bold display-3">A Simple Bookmark Manager</h1>
+              <p class="text-center text-md-start text-muted pe-md-5 fs-5">A clean and simple interface to organize your favorite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+
+              <div class="cta-buttons text-center text-md-start my-4">
+                <a href="#" class="btn btn-primary text-white shadow-sm font-weight-600 py-2 px-3 me-2">Get it on Chrome</a>
+                <a href="#" class="btn bg-light text-muted shadow font-weight-600 py-2 px-3">Get it on Firefox</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 order-first order-md-last">
+            <div class="parent">
+              <img class="img-fluid" src="/images/illustration-hero.svg" alt="" />
+              <div class="shape-right"></div>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
 
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
