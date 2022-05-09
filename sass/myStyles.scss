@@ -1,0 +1,41 @@
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.parent {
+  position: relative;
+}
+
+.shape-right {
+  position: absolute;
+  background-color: $primary;
+  width: 75%;
+  height: 75%;
+  right: -30px;
+  bottom: -10px;
+  border-radius: 100px 0 0 100px;
+  z-index: -1;
+}
+
+#features-btns {
+  width: auto;
+}
+
+@media (max-width: 991px) {
+  #collapsible-nav {
+    // height: 100vh;
+    background-color: rgba(47, 53, 79, 0.9);
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: white !important;
+    }
+  }
+
+  // #login-btn {
+  //   background-color: transparent;
+  //   padding: 1rem 1.2rem;
+  //   display: inline;
+  // }
+}

@@ -6,28 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vincenzo - Sprint 2</title>
     <link rel="stylesheet" href="../css/main.min.css" />
+    <link rel="stylesheet" href="../css/myStyles.min.css">
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-white my-md-5">
-        <div class="container">
+    <header class="my-5 py-5">
+      <nav class="navbar container-md navbar-expand-lg fixed-top navbar-light py-4" id="nav-id">
           <a class="navbar-brand" href="#"><img src="../images/logo-bookmark.svg" alt="" /> </a>
           <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span><img src="../images/icon-hamburger.svg" alt="" /></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link text-uppercase me-5 font-weight-600" aria-current="page" href="#">Features</a>
-              <a class="nav-link text-uppercase me-5 font-weight-600" href="#">Pricing</a>
-              <a class="nav-link text-uppercase me-5 font-weight-600" href="#">Contact</a>
-              <a class="btn btn-secondary text-uppercase text-white px-5 font-weight-600 shadow">Login</a>
+          <div class="collapse  navbar-collapse justify-content-end " id="navbarNavAltMarkup">
+            <div class="navbar-nav" id="collapsible-nav">
+              <a class="nav-link text-uppercase me-md-5 font-weight-600" aria-current="page" href="#">Features</a>
+              <a class="nav-link text-uppercase me-md-5 font-weight-600" href="#">Pricing</a>
+              <a class="nav-link text-uppercase me-md-5 font-weight-600" href="#">Contact</a>
+              <a class="btn btn-secondary text-uppercase text-white px-5 font-weight-600 shadow" id="login-btn">Login</a>
             </div>
           </div>
-        </div>
       </nav>
 
-      <section class="container" id="hero">
-        <div class="row align-items-center my-5">
+      <section class="container-md py-5" id="hero">
+        <div class="row align-items-center ">
           <div class="col-md-6">
             <div>
               <h1 class="text-center text-md-start text-dark my-4 fw-bold display-3">A Simple Bookmark Manager</h1>
@@ -47,25 +46,26 @@
           </div>
         </div>
       </section>
-    </header>
+    </headers>
 
-    <main class="container" id="features">
-      <section class="my-5 px-md-5">
-        <h2 class="fw-bold text-center">Features</h2>
-        <p class="text-muted fs-5 px-md-5 opacity-75 text-center">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
-
+    <main>
+      <section class="container-md my-5 px-md-5" id="features">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <h2 class="fw-bold text-center">Features</h2>
+            <p class="text-muted fs-5 px-md-5 opacity-75 text-center">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+          </div>
+        </div>
         <!-- Tabs navs -->
-        <ul class="nav nav-pills justify-content-center my-5" id="pills-tab" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Simple Bookmarking</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Speedy Searching</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Easy Sharing</button>
-          </li>
-        </ul>
+          
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
+            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+          </div>
+        </nav>
+       
 
         <!-- <div class="my-5 text-center mx-auto" id="features-btns">
           <a href="#" class="d-sm-block d-md-inline-block btn fs-5 p-4">Simple Bookmarking</a>
