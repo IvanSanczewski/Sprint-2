@@ -1,10 +1,13 @@
 @import "../sass/custom";
 .nav-tabs {
   .nav-link.active {
-      color: #495057;
-    }
-    .nav-link {
-      color: lighten(#495057,30) ;
+    color: #495057;
+    border: none;
+    border-bottom: 4px solid $secondary;
+  }
+  .nav-link {
+    color: lighten(#495057, 30);
+    border: none;
 
     &:hover {
       color: $secondary;
