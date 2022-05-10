@@ -13,22 +13,20 @@
   color: #fa5959;
 }
 
-.custom-card {
-  border-radius: 20px;
+.accordion-button:not(.collapsed) {
+  background-color: white;
+  color: #495057;
 }
 
-.custom-card .browser-thumbnail {
-  width: 100px;
-  height: 100px;
-  text-align: center;
+.accordion-item {
+  border: none;
+  border-top: 1px solid #949da5;
+  border-bottom: 1px solid #949da5;
 }
 
-.custom-card .bg-dots {
-  width: 100%;
-}
-
-.custom-card .btn:hover {
-  background-color: transparent;
-  color: #5265e1;
+.accordion-button:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 /*# sourceMappingURL=myStyles.css.map */

@@ -16,22 +16,18 @@
   }
 }
 
-.custom-card {
-  border-radius: 20px;
-  .browser-thumbnail {
-    width: 100px;
-    height: 100px;
-    text-align: center;
-  }
+.accordion-button:not(.collapsed) {
+  background-color: white;
+  color: #495057;
+}
 
-  .bg-dots {
-    width: 100%;
-  }
+.accordion-item {
+  border: none;
+  border-top: 1px solid #949da5;
+  border-bottom: 1px solid #949da5;
+}
 
-  .btn {
-    &:hover {
-      background-color: transparent;
-      color: $primary;
-    }
-  }
+.accordion-button:focus {
+  outline: none;
+  box-shadow: none;
 }
