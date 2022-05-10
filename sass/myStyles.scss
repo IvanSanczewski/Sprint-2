@@ -1,41 +1,13 @@
-.font-weight-600 {
-  font-weight: 600;
-}
-
-.parent {
-  position: relative;
-}
-
-.shape-right {
-  position: absolute;
-  background-color: $primary;
-  width: 75%;
-  height: 75%;
-  right: -30px;
-  bottom: -10px;
-  border-radius: 100px 0 0 100px;
-  z-index: -1;
-}
-
-#features-btns {
-  width: auto;
-}
-
-@media (max-width: 991px) {
-  #collapsible-nav {
-    // height: 100vh;
-    background-color: rgba(47, 53, 79, 0.9);
-  }
-
-  .navbar-nav {
+@import "../sass/custom";
+.nav-tabs {
+  .nav-link.active {
+      color: #495057;
+    }
     .nav-link {
-      color: white !important;
+      color: lighten(#495057,30) ;
+
+    &:hover {
+      color: $secondary;
     }
   }
-
-  // #login-btn {
-  //   background-color: transparent;
-  //   padding: 1rem 1.2rem;
-  //   display: inline;
-  // }
 }

@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=myStyles.css.map */
+.nav-tabs .nav-link.active {
+  color: #495057;
+}
+
+.nav-tabs .nav-link {
+  color: #949da5;
+}
+
+.nav-tabs .nav-link:hover {
+  color: #fa5959;
+}
+/*# sourceMappingURL=myStyles.css.map */

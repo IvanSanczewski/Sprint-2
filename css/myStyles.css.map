@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AACA,AACE,SADO,CACP,SAAS,AAAA,OAAO,CAAC;EACb,KAAK,EAAE,OAAO;CACf;;AAHL,AAII,SAJK,CAIL,SAAS,CAAC;EACR,KAAK,EAAE,OAAmB;CAK7B;;AAVH,AAOI,SAPK,CAIL,SAAS,AAGR,MAAM,CAAC;EACN,KAAK,ECNC,OAAO;CDOd",
     "sources": [
-        "../sass/myStyles.scss"
+        "../sass/myStyles.scss",
+        "../sass/_custom.scss"
     ],
     "names": [],
     "file": "myStyles.css"
