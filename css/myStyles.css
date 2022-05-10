@@ -12,4 +12,23 @@
 .nav-tabs .nav-link:hover {
   color: #fa5959;
 }
+
+.custom-card {
+  border-radius: 20px;
+}
+
+.custom-card .browser-thumbnail {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.custom-card .bg-dots {
+  width: 100%;
+}
+
+.custom-card .btn:hover {
+  background-color: transparent;
+  color: #5265e1;
+}
 /*# sourceMappingURL=myStyles.css.map */

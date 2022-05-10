@@ -14,7 +14,7 @@
   background-color: $primary;
   width: 80%;
   height: 80%;
-  right: -80px;
+  right: -30px;
   bottom: -25px;
   border-radius: 150px 0 0 150px;
   z-index: -1;
@@ -29,4 +29,8 @@
   bottom: -50px;
   border-radius: 0px 150px 150px 0px;
   z-index: -1;
+}
+
+#extensions {
+  height: 50vh;
 }

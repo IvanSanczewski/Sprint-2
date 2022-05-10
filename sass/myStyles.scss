@@ -1,4 +1,5 @@
 @import "../sass/custom";
+
 .nav-tabs {
   .nav-link.active {
     color: #495057;
@@ -11,6 +12,26 @@
 
     &:hover {
       color: $secondary;
+    }
+  }
+}
+
+.custom-card {
+  border-radius: 20px;
+  .browser-thumbnail {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+  }
+
+  .bg-dots {
+    width: 100%;
+  }
+
+  .btn {
+    &:hover {
+      background-color: transparent;
+      color: $primary;
     }
   }
 }
