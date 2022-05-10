@@ -11968,22 +11968,22 @@ fieldset:disabled .btn {
 .shape-right {
   position: absolute;
   background-color: #5265e1;
-  width: 75%;
-  height: 75%;
-  right: -30px;
-  bottom: -10px;
-  border-radius: 100px 0 0 100px;
+  width: 80%;
+  height: 80%;
+  right: -80px;
+  bottom: -25px;
+  border-radius: 150px 0 0 150px;
   z-index: -1;
 }
 
 .shape-left {
   position: absolute;
   background-color: #5265e1;
-  width: 75%;
-  height: 75%;
-  left: -30px;
-  bottom: -30px;
-  border-radius: 0px 100px 100px 0px;
+  width: 80%;
+  height: 100%;
+  left: -100px;
+  bottom: -50px;
+  border-radius: 0px 150px 150px 0px;
   z-index: -1;
 }
 /*# sourceMappingURL=main.css.map */
