@@ -68,4 +68,20 @@
 .accordion-button:not(.collapsed)::after {
   background-image: url("../images/icon-arrow-collapsed.svg");
 }
+
+footer .nav-link {
+  color: white;
+}
+
+footer .nav-link:hover {
+  color: #fa5959;
+}
+
+.socials .nav-link svg {
+  fill: white;
+}
+
+.socials .nav-link svg:hover {
+  fill: #fa5959;
+}
 /*# sourceMappingURL=myStyles.css.map */

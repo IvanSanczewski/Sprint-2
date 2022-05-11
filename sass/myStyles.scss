@@ -79,3 +79,24 @@
 .accordion-button:not(.collapsed)::after {
   background-image: url("../images/icon-arrow-collapsed.svg");
 }
+
+footer {
+  .nav-link {
+    color: white;
+    &:hover {
+      color: $secondary;
+    }
+  }
+}
+
+.socials {
+  .nav-link {
+    svg {
+      fill: white;
+
+      &:hover {
+        fill: $secondary;
+      }
+    }
+  }
+}
