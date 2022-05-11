@@ -1,5 +1,15 @@
 @import "../sass/custom";
 
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      &:hover {
+        color: $secondary;
+      }
+    }
+  }
+}
+
 .nav-tabs {
   .nav-link.active {
     color: #495057;
@@ -12,6 +22,15 @@
 
     &:hover {
       color: $secondary;
+    }
+  }
+}
+
+.cta-buttons {
+  .btn-grey {
+    color: #495057;
+    &:hover {
+      border: 1px solid #949da5;
     }
   }
 }
@@ -30,4 +49,33 @@
 .accordion-button:focus {
   outline: none;
   box-shadow: none;
+}
+
+.btn-primary {
+  &:hover {
+    background-color: transparent;
+    color: $primary;
+  }
+}
+.btn-secondary {
+  color: white;
+  &:hover {
+    background-color: transparent;
+    color: $secondary;
+  }
+}
+
+.accordion-button {
+  &:hover {
+    color: $secondary;
+  }
+}
+
+.accordion-button::after {
+  color: red;
+  background-image: url("../images/icon-arrow.svg");
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../images/icon-arrow-collapsed.svg");
 }

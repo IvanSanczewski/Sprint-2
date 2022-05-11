@@ -11970,7 +11970,7 @@ fieldset:disabled .btn {
   background-color: #5265e1;
   width: 80%;
   height: 80%;
-  right: -30px;
+  right: -20px;
   bottom: -25px;
   border-radius: 150px 0 0 150px;
   z-index: -1;
@@ -11987,21 +11987,6 @@ fieldset:disabled .btn {
   z-index: -1;
 }
 
-.nav-tabs .nav-link.active {
-  color: #495057;
-  border: none;
-  border-bottom: 4px solid #fa5959;
-}
-
-.nav-tabs .nav-link {
-  color: #949da5;
-  border: none;
-}
-
-.nav-tabs .nav-link:hover {
-  color: #fa5959;
-}
-
 .custom-card {
   border-radius: 20px;
 }
@@ -12016,8 +12001,16 @@ fieldset:disabled .btn {
   width: 100%;
 }
 
-.custom-card .btn:hover {
-  background-color: transparent;
-  color: #5265e1;
+.card-container {
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .card-container:nth-child(1) {
+    top: -20px;
+  }
+  .card-container:nth-child(3) {
+    bottom: -20px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
