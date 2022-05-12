@@ -100,3 +100,29 @@ footer {
     }
   }
 }
+
+.was-validated {
+  .form-control:invalid {
+    border-color: $secondary;
+    background-image: url("../images/icon-error.svg");
+  }
+}
+
+.invalid-tooltip {
+  background-color: $secondary;
+  padding-top: 0.2rem;
+  font-style: italic;
+  color: white;
+}
+
+.btn-check:focus + .btn-secondary,
+.btn-secondary:focus {
+  background-color: $secondary;
+  color: white;
+}
+
+@media (max-width: 349px) {
+  .btn[type="submit"] {
+    margin-top: 1.1rem;
+  }
+}

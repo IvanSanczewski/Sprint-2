@@ -84,4 +84,28 @@ footer .nav-link:hover {
 .socials .nav-link svg:hover {
   fill: #fa5959;
 }
+
+.was-validated .form-control:invalid {
+  border-color: #fa5959;
+  background-image: url("../images/icon-error.svg");
+}
+
+.invalid-tooltip {
+  background-color: #fa5959;
+  padding-top: 0.2rem;
+  font-style: italic;
+  color: white;
+}
+
+.btn-check:focus + .btn-secondary,
+.btn-secondary:focus {
+  background-color: #fa5959;
+  color: white;
+}
+
+@media (max-width: 349px) {
+  .btn[type="submit"] {
+    margin-top: 1.1rem;
+  }
+}
 /*# sourceMappingURL=myStyles.css.map */
