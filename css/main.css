@@ -11961,10 +11961,6 @@ fieldset:disabled .btn {
   font-weight: 600;
 }
 
-.parent {
-  position: relative;
-}
-
 .shape-right {
   position: absolute;
   background-color: #5265e1;
@@ -11987,6 +11983,10 @@ fieldset:disabled .btn {
   z-index: -1;
 }
 
+.card-container {
+  position: relative;
+}
+
 .custom-card {
   border-radius: 20px;
 }
@@ -12001,8 +12001,8 @@ fieldset:disabled .btn {
   width: 100%;
 }
 
-.card-container {
-  position: relative;
+#footer-nav {
+  background-color: #242946;
 }
 
 @media (min-width: 768px) {
@@ -12012,9 +12012,5 @@ fieldset:disabled .btn {
   .card-container:nth-child(3) {
     bottom: -20px;
   }
-}
-
-#footer-nav {
-  background-color: #242946;
 }
 /*# sourceMappingURL=main.css.map */
