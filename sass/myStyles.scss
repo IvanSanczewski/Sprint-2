@@ -39,35 +39,35 @@
 }
 
 // Override styles for the FAQ/Accordion section
-.accordion-button:not(.collapsed) {
-  background-color: white;
-  color: #495057;
+
+.accordion-button {
+  &:hover {
+    color: $secondary;
+  }
+
+  &:not(.collapsed) {
+    background-color: white;
+    color: #495057;
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  &::after {
+    background-image: url("../images/icon-arrow.svg");
+  }
+
+  &:not(.collapsed)::after {
+    background-image: url("../images/icon-arrow-collapsed.svg");
+  }
 }
 
 .accordion-item {
   border: none;
   border-top: 1px solid #949da5;
   border-bottom: 1px solid #949da5;
-}
-
-.accordion-button:focus {
-  outline: none;
-  box-shadow: none;
-}
-
-.accordion-button {
-  &:hover {
-    color: $secondary;
-  }
-}
-
-.accordion-button::after {
-  color: red;
-  background-image: url("../images/icon-arrow.svg");
-}
-
-.accordion-button:not(.collapsed)::after {
-  background-image: url("../images/icon-arrow-collapsed.svg");
 }
 
 // Override styles buttons hover effect

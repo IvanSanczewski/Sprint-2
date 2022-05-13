@@ -11983,10 +11983,6 @@ fieldset:disabled .btn {
   z-index: -1;
 }
 
-.card-container {
-  position: relative;
-}
-
 .custom-card {
   border-radius: 20px;
 }
