@@ -129,6 +129,8 @@ footer {
   color: white;
 }
 
+// Submit button has a bit of top margin up until 349px, this prevents the error message to be displayed on top of the button
+
 @media (max-width: 349px) {
   .btn[type="submit"] {
     margin-top: 1.1rem;
